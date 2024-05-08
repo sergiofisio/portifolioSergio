@@ -1,0 +1,140 @@
+{
+  "idioma": "Langue",
+  "expandir": "Cliquez pour voir les informations",
+  "nav": {
+    "Quem Sou": "À propos",
+    "Serviços": "Services",
+    "Portifolio": "Portfolio",
+    "Tecnologias": "Technologies",
+    "Contato": "Contact"
+  },
+  "sobre": {
+    "p1": "Vous avez une vision incroyable pour votre site web, votre blog, votre boutique en ligne ou votre projet, mais vous avez besoin de quelqu'un pour le concrétiser ? Si la réponse est oui, je suis là pour transformer vos rêves numériques en une réalité tangible. 😊",
+    "p2": "Je suis un développeur web Full Stack passionné par les défis et la création d'expériences en ligne extraordinaires. Mes compétences incluent la maîtrise de technologies telles que ReactJS, Typescript, NodeJS, HTML, CSS et Javascript. Je ne comprends pas seulement ces langages ; je les mets en œuvre de manière brillante pour créer des sites web et des applications exceptionnels. 💻✨",
+    "p3": "Mais ce n'est pas tout. Au-delà de ma compétence technique, je parle couramment anglais et français, ce qui signifie que je peux travailler sur des projets multilingues et atteindre des publics mondiaux. 🌍🗣️",
+    "p4": "Imaginez avoir un site web qui non seulement impressionne visuellement, mais fonctionne également parfaitement sur tous les appareils. Pensez à une boutique en ligne qui augmente vos ventes et améliore l'expérience client. Visualisez un blog qui attire des lecteurs et les garde engagés. 😍💼📈",
+    "p5": "Je suis là pour rendre tout cela possible. Ma motivation est d'apporter des solutions innovantes et créatives à votre projet, que ce soit en Front-end ou en Back-end. Avec moi, vous aurez un partenaire dévoué qui va au-delà des attentes et offre des résultats exceptionnels. 🤝🔧🚀",
+    "p6": "Alors, si vous êtes prêt à transformer votre vision en succès en ligne, contactez-moi dès maintenant. Travaillons ensemble pour créer une présence en ligne qui non seulement impressionnera, mais également stimulera vos objectifs commerciaux. Votre réussite est mon engagement ! 🌟🌐"
+  },
+  "servicos": {
+    "site": {
+      "title": "Développement de Sites Web",
+      "item1": {
+        "title": "Développement Personnalisé",
+        "descricao": "Je me spécialise dans la création de sites web vraiment uniques pour chaque client. Je n'adopte pas d'approches 'taille unique' ni de modèles préfabriqués. Au contraire, je travaille étroitement avec vous pour comprendre vos objectifs, votre vision de la marque et vos besoins spécifiques. Le résultat est un site web qui non seulement répond à vos attentes, mais les dépasse."
+      },
+      "item2": {
+        "title": "Conception Réactive",
+        "descricao": "Je donne toujours la priorité à l'accessibilité dans le paysage numérique d'aujourd'hui. Par conséquent, tous les sites web que je développe sont conçus en pensant à la réactivité. Cela signifie que votre site s'adaptera automatiquement à n'importe quelle taille d'écran, que ce soit un ordinateur de bureau, une tablette ou un smartphone. Je veille à ce que vos visiteurs aient une expérience fluide, quel que soit le dispositif qu'ils utilisent."
+      },
+      "item3": {
+        "title": "Fonctionnalités Avancées",
+        "descricao": "Il ne s'agit pas seulement d'une présence en ligne de base. J'offre l'intégration de fonctionnalités avancées qui peuvent transformer votre site web en un puissant outil commercial. Que vous souhaitiez un système de commerce électronique robuste, un blog interactif ou toute autre fonctionnalité spécifique, je peux le rendre possible. En tant que développeur expérimenté, je suis prêt à relever tous les défis."
+      }
+    },
+    "aplicacao": {
+      "title": "Développement d'Applications Web",
+      "item1": {
+        "title": "Solutions sur Mesure",
+        "descricao": "Les applications web sont essentielles pour de nombreuses entreprises aujourd'hui. Je comprends que vos besoins peuvent être uniques, c'est pourquoi je propose des solutions sur mesure. Que vous ayez besoin d'une plateforme de gestion de contenu, d'un système de réservation en ligne, d'une intranet d'entreprise ou de tout autre type d'application, je peux créer la solution parfaite pour vous."
+      },
+      "item2": {
+        "title": "Technologie de Pointe",
+        "descricao": "Je m'engage toujours à fournir ce qu'il y a de plus récent en termes de technologie. Cela signifie que vos applications seront construites avec les outils et les frameworks les plus modernes disponibles. Cela garantit non seulement des performances exceptionnelles, mais aussi une sécurité solide. Je reste toujours à jour avec les tendances technologiques pour vous offrir le meilleur."
+      },
+      "item3": {
+        "title": "Personnalisation Complète",
+        "descricao": "Votre application web doit refléter l'identité et les objectifs uniques de votre entreprise. Je ne construis pas seulement des applications fonctionnelles, je les personnalise également pour répondre à vos besoins spécifiques. De la conception de l'interface utilisateur aux fonctionnalités, vous aurez un contrôle total sur la manière dont votre application est façonnée."
+      }
+    }
+  },
+  "skills": {
+    "Front": {
+      "html": "HTML est le langage de balisage utilisé pour structurer le contenu d'une page web, tandis que CSS est responsable de la mise en forme et de l'apparence de la page, permettant la création de mises en page attrayantes et réactives.",
+      "react": "React est une bibliothèque JavaScript largement adoptée pour créer des interfaces utilisateur interactives et réactives. Avec la capacité de créer des composants réutilisables et de gérer efficacement l'état de l'application, React est un choix puissant pour le développement Front-end moderne.",
+      "angular": "Angular est un framework de développement Front-end populaire maintenu par Google qui offre une structure robuste pour la création d'applications web dynamiques et évolutives. Basé sur TypeScript, il simplifie l'organisation du code, la gestion de l'état, le routage et les interactions avec l'interface utilisateur, offrant un environnement de développement efficace et hautement modulaire pour la création d'applications web modernes et réactives."
+    },
+    "Back": {
+      "node": "Node.js est une plateforme de développement Back-end qui permet l'exécution de code JavaScript en dehors du navigateur. Avec Node, vous pouvez créer des applications web évolutives et performantes, ainsi que des API RESTful et des applications en ligne de commande.",
+      "postgresql": "PostgreSQL est un système de gestion de base de données relationnelle open source, hautement fiable et évolutif, offrant des fonctionnalités avancées pour le stockage, la requête et la manipulation de données de manière efficace et sécurisée.",
+      "Nest": "Nest.js est un framework de développement d'applications Node.js axé sur la création d'API RESTful et d'applications web évolutives et performantes. Il utilise TypeScript comme langage principal et propose une architecture modulaire basée sur des modules, inspirée d'Angular. Nest.js encourage l'organisation du code grâce à des concepts tels que l'injection de dépendance, les contrôleurs, les modules et les middlewares. De plus, il s'intègre parfaitement avec d'autres bibliothèques populaires telles qu'Express.js et offre des outils robustes pour gérer des tâches telles que l'authentification, la validation des données et d'autres tâches courantes dans le développement d'API.",
+      "Prisma": "Prisma ORM (Object-Relational Mapping) est un outil de mappage objet-vers-base de données qui simplifie et rationalise l'accès et la manipulation des données dans les applications web. Il prend en charge diverses bases de données telles que PostgreSQL, MySQL et SQLite, et permet aux développeurs d'interagir avec la base de données en utilisant des langages de programmation tels que TypeScript et JavaScript au lieu d'écrire des requêtes SQL manuellement. Prisma ORM génère un modèle de données basé sur le schéma de la base de données et offre des fonctionnalités puissantes telles que des requêtes typées, des migrations automatiques et une API intuitive pour effectuer efficacement des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer). Cet outil est largement adopté pour simplifier le développement d'applications qui dépendent de bases de données relationnelles."
+    }
+  },
+  "Projetos": {
+    "cuboflix": {
+      "title": "CuboFlix",
+      "descricao1": "Projet réalisé dans le cadre du cours de développement logiciel de Cubos Academy.",
+      "descricao2": "Dans ce défi, nous avons été chargés de créer un site web appelé CuboFlix.",
+      "descricao3": "J'ai utilisé la framework AXIOS pour accéder aux données de l'API, ce qui a permis :",
+      "descricao4": "1. Répertorier les films disponibles dans l'API ;",
+      "descricao5": "2. Rechercher des films par nom ;",
+      "descricao6": "3. Mise en avant quotidienne",
+      "descricao7": "4. Changer de thème entre sombre et clair, avec une persistance lors de la mise à jour de la page"
+    },
+    "web-app-dindin-TS": {
+      "title": "Application DinDin",
+      "descricao1": "Cette application a été développée dans le cadre du défi du module 3 du cours de développement logiciel de Cubos Academy.",
+      "descricao2": "Il s'agit d'une application de contrôle financier personnel qui permet à l'utilisateur d'ajouter ses revenus et ses dépenses et de suivre son solde.",
+      "descricao3": "L'application a été rédigée en utilisant ReactJS, le backend a été développé en Node.js, et la base de données utilisée était PostgresSQL, une base de données relationnelle.",
+      "descricao4": "Fonctionnalités :",
+      "descricao5": "- Enregistrement de l'utilisateur",
+      "descricao6": "- Connexion de l'utilisateur",
+      "descricao7": "- Ajout de revenus et de dépenses",
+      "descricao8": "- Liste des revenus et des dépenses",
+      "descricao9": "- Modification et suppression de revenus et de dépenses",
+      "descricao10": "- Vue du solde de l'utilisateur",
+      "tecnologias": ["React", "React Router Dom", "Axios", "React-toastify"]
+    },
+    "aplicacaoCobranca": {
+      "title": "Application de facturation",
+      "descricao1": "Cette application de facturation propose des fonctionnalités liées aux utilisateurs, aux clients et aux factures.",
+      "descricao2": "Utilisateur :",
+      "descricao3": "- Enregistrement de l'utilisateur : Permet à un nouvel utilisateur de s'inscrire dans l'application en fournissant des informations telles que le nom, l'e-mail et le mot de passe.",
+      "descricao4": "- Connexion de l'utilisateur : Après l'inscription, les utilisateurs peuvent se connecter à l'application en utilisant leur adresse e-mail et leur mot de passe.",
+      "descricao5": "- Modification de l'utilisateur connecté : Permet à l'utilisateur connecté de faire des modifications sur son profil, telles que la mise à jour des informations personnelles ou le changement de mot de passe.",
+      "descricao6": "Client :",
+      "descricao7": "- Enregistrement du client : Les utilisateurs peuvent ajouter de nouveaux clients à l'application en fournissant des informations telles que le nom, l'adresse, le numéro de téléphone, etc.",
+      "descricao8": "- Liste des clients : Affiche une liste de tous les clients enregistrés dans l'application, permettant aux utilisateurs de consulter rapidement les détails de base de chaque client.",
+      "descricao9": "- Détail du client : En sélectionnant un client dans la liste, il est possible d'accéder à une page avec des informations détaillées sur le client, telles que l'historique des achats, les factures impayées, etc.",
+      "descricao10": "- Mise à jour du client : Permet à l'utilisateur de mettre à jour les informations d'un client existant, telles que l'adresse de livraison ou le numéro de téléphone.",
+      "descricao11": "Facturation :",
+      "descricao12": "- Enregistrement de factures : Les utilisateurs peuvent enregistrer de nouvelles factures liées à un client spécifique en fournissant des détails tels que le montant de la facture, la date d'échéance, etc.",
+      "descricao13": "- Liste de factures : Affiche une liste de toutes les factures enregistrées dans l'application, permettant aux utilisateurs de consulter rapidement des informations de base sur chaque facture.",
+      "descricao14": "- Modification de factures : Permet à l'utilisateur de modifier une facture existante, telle que la mise à jour du montant ou de la date d'échéance.",
+      "descricao15": "- Suppression de factures : Permet à l'utilisateur de supprimer une facture enregistrée si elle n'est plus nécessaire ou si elle a été enregistrée par erreur.",
+      "descricao16": "- Détail de facture : En sélectionnant une facture dans la liste, il est possible d'accéder à une page avec des informations détaillées sur la facture, telles que l'historique des paiements et le statut actuel, etc.",
+      "descricao17": "- Cette application de facturation permet aux utilisateurs d'enregistrer des clients, de gérer des factures et de suivre leur statut, facilitant la gestion financière et le contrôle des paiements.",
+      "tecnologias": [
+        "React",
+        "React-toastify",
+        "Axios",
+        "Yup",
+        "Moment",
+        "Cpf-cnpj-validator",
+        "Data-fns",
+        "Gerador-validador-cpf",
+        "React-number-format",
+        "React-input-mask",
+        "React-spinners"
+      ]
+    },
+    "pokedexNew": {
+      "title": "PokeDex",
+      "descricao1": "Ce projet a été développé dans le cadre du cours de développement web avec Angular, en utilisant le framework Tailwind CSS et la bibliothèque Axios pour effectuer des requêtes vers l'API Pokémon.",
+      "descricao2": "L'objectif de ce défi était de créer une application web appelée PokeDex, qui permet aux utilisateurs d'explorer des informations sur les Pokémon.",
+      "descricao3": "Pour atteindre cet objectif, nous avons utilisé Angular pour créer la structure de l'application et l'interface utilisateur, Tailwind CSS pour la mise en forme, et Axios pour accéder aux données de l'API Pokémon.",
+      "descricao4": "Les principales fonctionnalités de l'application comprennent :",
+      "descricao5": "1. Liste des Pokémon : L'application affiche une liste de Pokémon avec des informations de base telles que le nom et le type.",
+      "descricao6": "2. Détails des Pokémon : Les utilisateurs peuvent cliquer sur un Pokémon dans la liste pour obtenir des informations plus détaillées, notamment une image, des capacités et des statistiques.",
+      "descricao7": "3. Recherche par Nom : L'application permet aux utilisateurs de rechercher des Pokémon par nom, facilitant la recherche de Pokémon spécifiques.",
+      "descricao8": "4. Mise en forme avec Tailwind CSS : Nous avons utilisé Tailwind CSS pour créer une interface utilisateur attrayante et réactive.",
+      "descricao9": "5. Requêtes avec Axios : Axios est utilisé pour effectuer des requêtes vers l'API Pokémon et obtenir les données nécessaires pour afficher des informations sur les Pokémon.",
+      "descricao10": "Ce projet comprend également des fonctionnalités supplémentaires, telles que la possibilité de filtrer les Pokémon par type et de les trier de différentes manières.",
+      "descricao11": "L'application offre une expérience interactive et informative pour les fans de Pokémon, leur permettant d'explorer et d'en apprendre davantage sur leurs Pokémon préférés."
+    }
+  },
+  "contato": {
+    "celular": "Portable + WhatsApp"
+  }
+}

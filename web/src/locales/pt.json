@@ -1,0 +1,141 @@
+{
+  "idioma": "Idioma",
+  "expandir": "Clique para ver as informações",
+  "nav": {
+    "Quem Sou": "Quem Sou",
+    "Serviços": "Serviços",
+    "Portifolio": "Portifolio",
+    "Tecnologias": "Tecnologias",
+    "Contato": "Contato"
+  },
+  "sobre": {
+    "p1": "Você tem uma visão incrível para o seu site, blog, loja virtual ou projeto online, mas precisa de alguém que faça isso acontecer? Se a resposta for sim, estou aqui para tornar seus sonhos digitais uma realidade palpável. 😊",
+    "p2": "Sou um Desenvolvedor Web Full Stack apaixonado por desafios e pela criação de experiências online extraordinárias. Minhas habilidades incluem domínio de tecnologias como ReactJS, Typescript, NodeJS, HTML, CSS e Javascript. Eu não apenas entendo essas linguagens, mas as coloco em ação de forma brilhante para criar sites e aplicativos que se destacam. 💻✨",
+    "p3": "Mas isso não é tudo. Além da minha competência técnica, sou fluente em inglês e francês, o que significa que posso trabalhar em projetos multilíngues e alcançar audiências globais. 🌍🗣️",
+    "p4": "Imagine ter um site que não apenas impressiona visualmente, mas também funciona de maneira impecável em todos os dispositivos. Pense em uma loja virtual que aumenta suas vendas e aprimora a experiência do cliente. Visualize um blog que atrai leitores e mantém a atenção deles. 😍💼📈",
+    "p5": "Estou aqui para tornar tudo isso possível. Minha motivação é trazer soluções inovadoras e criativas para o seu projeto, independentemente de ser no Front-end ou Back-end. Comigo, você terá um parceiro dedicado que vai além das expectativas e entrega resultados excepcionais. 🤝🔧🚀",
+    "p6": "Então, se você está pronto para transformar sua visão em sucesso online, entre em contato comigo agora. Vamos trabalhar juntos para criar uma presença online que não apenas impressionará, mas também impulsionará seus objetivos de negócios. Seu sucesso é o meu compromisso! 🌟🌐"
+  },
+  "servicos": {
+    "site": {
+      "title": "Desenvolvimento de Sites",
+      "item1": {
+        "title": "Desenvolvimento Sob Medida",
+        "descricao": "Me dedico a criar sites que são verdadeiramente únicos para cada cliente. Não adoto abordagens 'tamanho único' ou modelos pré-fabricados. Em vez disso, trabalho em estreita colaboração com você para entender suas metas, visão de marca e requisitos específicos. O resultado é um site que não apenas atende, mas excede suas expectativas."
+      },
+      "item2": {
+        "title": "Design Responsivo",
+        "descricao": "Sempre penso que a acessibilidade é fundamental nos dias de hoje. Portanto, todos os sites que desenvolvo são projetados com responsividade em mente. Isso significa que seu site se ajustará automaticamente a qualquer tamanho de tela, seja um computador desktop, tablet ou smartphone. Garanto que seus visitantes tenham uma experiência perfeita, independentemente do dispositivo que estejam usando."
+      },
+      "item3": {
+        "title": "Recursos Avançados",
+        "descricao": "Não se trata apenas de uma presença online básica. Ofereço a integração de recursos avançados que podem transformar seu site em uma poderosa ferramenta de negócios. Se você deseja um sistema de comércio eletrônico robusto, um blog interativo ou qualquer outro recurso específico, posso tornar isso realidade. Como desenvolvedor experiente estou prontos para enfrentar qualquer desafio."
+      }
+    },
+    "aplicacao": {
+      "title": "Desenvolvimento de Aplicações Web",
+      "item1": {
+        "title": "Soluções Sob Medida",
+        "descricao": "As aplicações web são essenciais para muitas empresas hoje em dia. Entendo que suas necessidades podem ser únicas, e é por isso que ofereço soluções sob medida. Independentemente de você precisar de uma plataforma de gerenciamento de conteúdo, um sistema de reservas online, uma intranet corporativa ou qualquer outro tipo de aplicação, posso criar a solução perfeita para você."
+      },
+      "item2": {
+        "title": "Tecnologia de Ponta",
+        "descricao": "Estou sempre comprometido em fornecer o que há de mais recente em termos de tecnologia. Isso significa que suas aplicações serão construídas com as ferramentas e estruturas mais modernas disponíveis.Isso não apenas garante desempenho excepcional, mas também segurança sólida. Mantenho-me sempre atualizado com as tendências tecnológicas para oferecer o melhor a você."
+      },
+      "item3": {
+        "title": "Personalização Completa",
+        "descricao": "Sua aplicação web deve refletir a identidade e os objetivos exclusivos de sua empresa. Não apenas construo aplicações funcionais, mas também as personalizam para atender às suas necessidades específicas. Desde o design da interface do usuário até os recursos e a funcionalidade, você terá controle total sobre como sua aplicação é moldada."
+      }
+    }
+  },
+  "skills": {
+    "Front": {
+      "html": "HTML é a linguagem de marcação usada para estruturar o conteúdo de uma página web, enquanto o CSS é responsável por estilizar e dar aparência à página, permitindo a criação de layouts atraentes e responsivos.",
+      "react": "React é uma biblioteca JavaScript amplamente adotada para criar interfaces de usuário interativas e reativas. Com a capacidade de criar componentes reutilizáveis e gerenciar eficientemente o estado da aplicação, o React é uma escolha poderosa para o desenvolvimento front-end moderno.",
+      "angular": "Angular é um popular framework de desenvolvimento front-end mantido pelo Google que oferece uma estrutura robusta para a criação de aplicativos web dinâmicos e escaláveis. Baseado em TypeScript, ele facilita a organização do código, gerenciamento de estados, roteamento, e interações com a interface do usuário, proporcionando um ambiente de desenvolvimento eficiente e altamente modular para construir aplicações web modernas e responsivas.",
+      "tailwind": "Tailwind CSS é um framework de design CSS inovador que adota uma abordagem utility-first, fornecendo uma extensa lista de classes pré-definidas para aplicar diretamente a elementos HTML, simplificando o processo de estilização. Isso permite uma criação de interfaces de usuário altamente eficiente e personalizável, com configurações flexíveis e suporte para responsividade, enquanto mantém um desempenho otimizado. Com uma comunidade ativa e plugins adicionais, o Tailwind CSS oferece um ecossistema completo para desenvolver interfaces web modernas de maneira rápida e adaptável, tornando-o uma escolha popular para desenvolvedores em busca de um fluxo de trabalho de design ágil e eficaz."
+    },
+    "Back": {
+      "node": "Node.js é uma plataforma de desenvolvimento back-end que permite a execução de código JavaScript fora do navegador. Com o Node, é possível criar aplicações web escaláveis e de alta performance, além de APIs RESTful e aplicações de linha de comando.",
+      "postgresql": "PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto, altamente confiável e escalável, que oferece recursos avançados para armazenamento, consulta e manipulação de dados de forma eficiente e segura.",
+      "Nest": "Nest.js é um framework de desenvolvimento de aplicativos em Node.js que se concentra na criação de APIs RESTful e aplicações web escaláveis e eficientes. Ele utiliza o TypeScript como linguagem principal e oferece uma arquitetura modular e baseada em módulos, inspirada no Angular. O Nest.js promove a organização do código por meio de conceitos como injeção de dependência, controladores, módulos e middlewares. Além disso, ele se integra bem com outras bibliotecas populares, como o Express.js, e fornece ferramentas robustas para lidar com autenticação, validação de dados e outras tarefas comuns no desenvolvimento de APIs.",
+      "Prisma": "O Prisma ORM (Object-Relational Mapping) é uma ferramenta de mapeamento de objetos para bancos de dados que simplifica e agiliza o acesso e a manipulação de dados em aplicativos web. Ele oferece suporte a várias bases de dados, como PostgreSQL, MySQL e SQLite, e permite que os desenvolvedores interajam com o banco de dados usando linguagens de programação, como TypeScript e JavaScript, em vez de escrever consultas SQL manualmente. O Prisma ORM gera um modelo de dados com base no esquema do banco de dados e oferece recursos poderosos, como consultas tipadas, migrações automáticas e uma API intuitiva para realizar operações de CRUD (Criar, Ler, Atualizar, Excluir) de maneira eficiente. Essa ferramenta é amplamente adotada para simplificar o desenvolvimento de aplicativos que dependem de bancos de dados relacionais."
+    }
+  },
+  "Projetos": {
+    "cuboflix": {
+      "title": "CuboFlix",
+      "descricao1": "Projeto realizado no curso de desenvolvimento de software da Cubos Academy.",
+      "descricao2": "Neste desafio, nos foi proposto a criação de um site chamado CuboFlix.",
+      "descricao3": "Utilizei a framework AXIOS para acessar os dados da API e assim foi possível:",
+      "descricao4": "1. Listar os filmes disponíveis na API;",
+      "descricao5": "2. Buscar filmes por nome;",
+      "descricao6": "3. Destaque do dia",
+      "descricao7": "4. Mudança de tema para escuro ou claro, com persistência na atualização da página"
+    },
+    "web-app-dindin-TS": {
+      "title": "Aplicação DinDin",
+      "descricao1": "Esta aplicação foi desenvolvida no desafio do módulo 3 do curso de Desenvolvimento de Software da Cubos Academy.",
+      "descricao2": "Esta é uma aplicação para controle financeiro pessoal que permite que o usuário adicione suas receitas e despesas, e acompanhe seu saldo.",
+      "descricao3": "A aplicação foi escrita utilizando ReactJS, o backend foi desenvolvido em Node.js e o banco de dados utlizado foi PostgresSQL, um banco relacional.",
+      "descricao4": "Funcionalidades:",
+      "descricao5": "- Cadastro de usuário",
+      "descricao6": "- Login de usuário",
+      "descricao7": "- Adição de receitas e despesas",
+      "descricao8": "- Listagem de receitas e despesas",
+      "descricao9": "- Edição e exclusão de receitas e despesas",
+      "descricao10": "- Visualização do saldo do usuário",
+      "tecnologias": ["React", "React Router Dom", "Axios", "React-toastify"]
+    },
+    "aplicacaoCobranca": {
+      "title": "Aplicação Cobranças",
+      "descricao1": "Essa aplicação de cobrança possui funcionalidades relacionadas a usuários, clientes e cobranças.",
+      "descricao2": "Usuário:",
+      "descricao3": "- Cadastro do usuário: Permite que um novo usuário se registre na aplicação, fornecendo informações como nome, e-mail e senha.",
+      "descricao4": "- Login do usuário: Após o cadastro, os usuários podem fazer login na aplicação usando suas credenciais de e-mail e senha.",
+      "descricao5": "- Edição do usuário logado: Permite que o usuário logado faça alterações em seu perfil, como atualizar informações pessoais ou alterar a senha.",
+      "descricao6": "Cliente:",
+      "descricao7": "- Cadastro do cliente: Os usuários podem adicionar novos clientes à aplicação, fornecendo informações como nome, endereço, número de telefone, etc.",
+      "descricao8": "- Listagem de clientes: Exibe uma lista de todos os clientes cadastrados na aplicação, permitindo que os usuários visualizem rapidamente os detalhes básicos de cada cliente.",
+      "descricao9": "- Detalhamento do cliente: Ao selecionar um cliente na listagem, é possível acessar uma página com informações detalhadas sobre o cliente, como histórico de compras, cobranças em aberto, etc.",
+      "descricao10": "- Atualização do cliente: Permite que o usuário atualize as informações de um cliente existente, como endereço de entrega ou número de telefone.",
+      "descricao11": "Cobranças:",
+      "descricao12": "- Cadastro de cobranças: Os usuários podem registrar novas cobranças relacionadas a um cliente específico, fornecendo detalhes como o valor da cobrança, a data de vencimento, etc.",
+      "descricao13": "- Listagem de cobranças: Exibe uma lista de todas as cobranças registradas na aplicação, permitindo que os usuários vejam rapidamente as informações básicas de cada cobrança.",
+      "descricao14": "- Edição de cobranças: Permite que o usuário faça alterações em uma cobrança existente, como atualizar o valor ou a data de vencimento.",
+      "descricao15": "- Exclusão de cobranças: Permite que o usuário exclua uma cobrança registrada, caso não seja mais necessária ou tenha sido registrada erroneamente.",
+      "descricao16": "- Detalhe da cobrança: Ao selecionar uma cobrança na listagem, é possível acessar uma página com informações detalhadas sobre a cobrança, como histórico de pagamentos, status atual, etc.",
+      "descricao17": "- Essa aplicação de cobrança permite que os usuários cadastrem clientes, gerenciem cobranças e acompanhem o status das mesmas, facilitando a gestão financeira e o controle de pagamentos.",
+      "tecnologias": [
+        "React",
+        "React-toastify",
+        "Axios",
+        "Yup",
+        "Moment",
+        "Cpf-cnpj-validator",
+        "Data-fns",
+        "Gerador-validador-cpf",
+        "React-number-format",
+        "React-input-mask",
+        "React-spinners"
+      ]
+    },
+    "pokedexNew": {
+      "title": "PokeDex",
+      "descricao1": "Este projeto foi desenvolvido como parte do curso de desenvolvimento web com Angular, utilizando a framework Tailwind CSS e a biblioteca Axios para realizar requisições à API da Pokémon.",
+      "descricao2": "O objetivo deste desafio era criar uma aplicação web chamada PokeDex, que permite aos usuários explorar informações sobre os Pokémon.",
+      "descricao3": "Para alcançar esse objetivo, utilizamos o Angular para criar a estrutura da aplicação e a interface do usuário, o Tailwind CSS para estilização e o Axios para acessar os dados da API da Pokémon.",
+      "descricao4": "Principais recursos da aplicação incluem:",
+      "descricao5": "1. Listagem de Pokémon: A aplicação exibe uma lista de Pokémon com informações básicas, como nome e tipo.",
+      "descricao6": "2. Detalhes do Pokémon: Os usuários podem clicar em um Pokémon na lista para obter mais informações detalhadas, incluindo imagem, habilidades e estatísticas.",
+      "descricao7": "3. Pesquisa por Nome: A aplicação permite aos usuários pesquisar Pokémon por nome, facilitando a localização de Pokémon específicos.",
+      "descricao8": "4. Estilização com Tailwind CSS: Utilizamos o Tailwind CSS para criar uma interface de usuário atraente e responsiva.",
+      "descricao9": "5. Requisições com Axios: O Axios é usado para realizar requisições à API da Pokémon e obter os dados necessários para exibir informações sobre os Pokémon.",
+      "descricao10": "Este projeto também inclui funcionalidades adicionais, como a possibilidade de filtrar Pokémon por tipo e ordená-los de diversas maneiras.",
+      "descricao11": "A aplicação oferece uma experiência interativa e informativa para os fãs de Pokémon, permitindo que eles explorem e aprendam mais sobre seus Pokémon favoritos."
+    }
+  },
+  "contato": {
+    "celular": "Celular + whatsapp"
+  }
+}

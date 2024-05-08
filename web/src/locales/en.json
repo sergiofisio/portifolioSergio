@@ -1,0 +1,140 @@
+{
+  "idioma": "Language",
+  "expandir": "Click to view information",
+  "nav": {
+    "Quem Sou": "About Me",
+    "Serviços": "Services",
+    "Portifolio": "Portfolio",
+    "Tecnologias": "Technologies",
+    "Contato": "Contact"
+  },
+  "sobre": {
+    "p1": "Do you have an amazing vision for your website, blog, online store, or project, but you need someone to make it happen? If the answer is yes, I'm here to turn your digital dreams into a tangible reality. 😊",
+    "p2": "I'm a passionate Full Stack Web Developer who thrives on challenges and crafting extraordinary online experiences. My skills include mastering technologies like ReactJS, Typescript, NodeJS, HTML, CSS, and Javascript. I don't just understand these languages; I put them to brilliant use to create standout websites and applications. 💻✨",
+    "p3": "But that's not all. Beyond my technical prowess, I'm fluent in English and French, which means I can work on multilingual projects and reach global audiences. 🌍🗣️",
+    "p4": "Imagine having a website that not only visually impresses but also functions flawlessly on all devices. Think of an online store that boosts your sales and enhances the customer experience. Visualize a blog that attracts readers and keeps them engaged. 😍💼📈",
+    "p5": "I'm here to make all of this possible. My motivation is to bring innovative and creative solutions to your project, whether it's on the Front-end or Back-end. With me, you'll have a dedicated partner who goes above and beyond expectations and delivers exceptional results. 🤝🔧🚀",
+    "p6": "So, if you're ready to turn your vision into online success, contact me now. Let's work together to create an online presence that not only impresses but also drives your business goals. Your success is my commitment! 🌟🌐"
+  },
+  "servicos": {
+    "site": {
+      "title": "Website Development",
+      "item1": {
+        "title": "Custom Development",
+        "descricao": "I specialize in creating websites that are truly unique for each client. I don't adopt 'one-size-fits-all' approaches or pre-made templates. Instead, I work closely with you to understand your goals, brand vision, and specific requirements. The result is a website that not only meets but exceeds your expectations."
+      },
+      "item2": {
+        "title": "Responsive Design",
+        "descricao": "I always prioritize accessibility in today's digital landscape. Therefore, all the websites I develop are designed with responsiveness in mind. This means your site will automatically adapt to any screen size, whether it's a desktop computer, tablet, or smartphone. I ensure your visitors have a seamless experience regardless of the device they're using."
+      },
+      "item3": {
+        "title": "Advanced Features",
+        "descricao": "It's not just about a basic online presence. I offer the integration of advanced features that can turn your website into a powerful business tool. Whether you need a robust e-commerce system, an interactive blog, or any other specific feature, I can make it a reality. As an experienced developer, I'm ready to tackle any challenge."
+      }
+    },
+    "aplicacao": {
+      "title": "Web Application Development",
+      "item1": {
+        "title": "Custom Solutions",
+        "descricao": "Web applications are essential for many businesses today. I understand that your needs can be unique, which is why I offer tailor-made solutions. Whether you require a content management platform, an online reservation system, a corporate intranet, or any other type of application, I can create the perfect solution for you."
+      },
+      "item2": {
+        "title": "Cutting-Edge Technology",
+        "descricao": "I'm always committed to providing the latest in technology. This means your applications will be built with the most modern tools and frameworks available. This not only ensures exceptional performance but also solid security. I stay updated with technological trends to offer you the best."
+      },
+      "item3": {
+        "title": "Complete Customization",
+        "descricao": "Your web application should reflect your company's unique identity and goals. I not only build functional applications but also customize them to meet your specific needs. From user interface design to features and functionality, you'll have full control over how your application is shaped."
+      }
+    }
+  },
+  "skills": {
+    "Front": {
+      "html": "HTML is the markup language used to structure the content of a web page, while CSS is responsible for styling and giving the page its appearance, allowing the creation of attractive and responsive layouts.",
+      "react": "React is a widely adopted JavaScript library for building interactive and responsive user interfaces. With the ability to create reusable components and efficiently manage the application's state, React is a powerful choice for modern front-end development.",
+      "angular": "Angular is a popular front-end development framework maintained by Google that offers a robust framework for creating dynamic and scalable web applications. Based on TypeScript, it simplifies code organization, state management, routing, and user interface interactions, providing an efficient and highly modular development environment for building modern and responsive web applications."
+    },
+    "Back": {
+      "node": "Node.js is a back-end development platform that enables the execution of JavaScript code outside the browser. With Node, you can create scalable and high-performance web applications, as well as RESTful APIs and command-line applications.",
+      "postgresql": "PostgreSQL is an open-source, highly reliable, and scalable relational database management system that offers advanced features for efficient and secure data storage, querying, and manipulation.",
+      "Nest": "Nest.js is a Node.js application development framework that focuses on creating scalable and efficient RESTful APIs and web applications. It uses TypeScript as its primary language and offers a modular, module-based architecture inspired by Angular. Nest.js promotes code organization through concepts such as dependency injection, controllers, modules, and middlewares. Additionally, it integrates well with other popular libraries like Express.js and provides robust tools for handling tasks such as authentication, data validation, and other common tasks in API development.",
+      "Prisma": "Prisma ORM (Object-Relational Mapping) is an object-to-database mapping tool that simplifies and streamlines data access and manipulation in web applications. It supports various databases such as PostgreSQL, MySQL, and SQLite and allows developers to interact with the database using programming languages like TypeScript and JavaScript instead of writing SQL queries manually. Prisma ORM generates a data model based on the database schema and offers powerful features such as typed queries, automatic migrations, and an intuitive API for efficiently performing CRUD (Create, Read, Update, Delete) operations. This tool is widely adopted to simplify the development of applications that rely on relational databases."
+    }
+  },
+  "Projetos": {
+    "cuboflix": {
+      "title": "CuboFlix",
+      "descricao1": "Project completed in the Cubos Academy software development course.",
+      "descricao2": "In this challenge, we were tasked with creating a website called CuboFlix.",
+      "descricao3": "I used the AXIOS framework to access API data, enabling:",
+      "descricao4": "1. Listing available movies in the API;",
+      "descricao5": "2. Searching for movies by name;",
+      "descricao6": "3. Daily highlights",
+      "descricao7": "4. Theme switching between dark and light, with persistence upon page refresh"
+    },
+    "web-app-dindin-TS": {
+      "title": "DinDin Application",
+      "descricao1": "This application was developed in the challenge of module 3 of the Cubos Academy Software Development course.",
+      "descricao2": "This is an application for personal financial control that allows the user to add their income and expenses and track their balance.",
+      "descricao3": "The application was written using ReactJS, the backend was developed in Node.js, and the database used was PostgresSQL, a relational database.",
+      "descricao4": "Functionalities:",
+      "descricao5": "- User registration",
+      "descricao6": "- User login",
+      "descricao7": "- Addition of income and expenses",
+      "descricao8": "- Listing of income and expenses",
+      "descricao9": "- Editing and deletion of income and expenses",
+      "descricao10": "- User balance view",
+      "tecnologias": ["React", "React Router Dom", "Axios", "React-toastify"]
+    },
+    "aplicacaoCobranca": {
+      "title": "Billing Application",
+      "descricao1": "This billing application features functionalities related to users, clients, and bills.",
+      "descricao2": "User:",
+      "descricao3": "- User registration: Allows a new user to register in the application, providing information such as name, email, and password.",
+      "descricao4": "- User login: After registration, users can log in to the application using their email and password credentials.",
+      "descricao5": "- Editing of the logged-in user: Allows the logged-in user to make changes to their profile, such as updating personal information or changing their password.",
+      "descricao6": "Client:",
+      "descricao7": "- Client registration: Users can add new clients to the application, providing information such as name, address, phone number, etc.",
+      "descricao8": "- Listing of clients: Displays a list of all clients registered in the application, allowing users to quickly view basic details of each client.",
+      "descricao9": "- Client detail: By selecting a client in the list, it is possible to access a page with detailed information about the client, such as purchase history, outstanding bills, etc.",
+      "descricao10": "- Client update: Allows the user to update the information of an existing client, such as delivery address or phone number.",
+      "descricao11": "Billing:",
+      "descricao12": "- Billing registration: Users can register new bills related to a specific client, providing details such as the bill amount, due date, etc.",
+      "descricao13": "- Billing listing: Displays a list of all bills registered in the application, allowing users to quickly view basic information about each bill.",
+      "descricao14": "- Billing editing: Allows the user to make changes to an existing bill, such as updating the amount or due date.",
+      "descricao15": "- Billing deletion: Allows the user to delete a registered bill if it is no longer needed or has been registered incorrectly.",
+      "descricao16": "- Billing detail: By selecting a bill in the list, it is possible to access a page with detailed information about the bill, such as payment history and current status, etc.",
+      "descricao17": "This billing application allows users to register clients, manage bills, and track their status, making financial management and payment control easy.",
+      "tecnologias": [
+        "React",
+        "React-toastify",
+        "Axios",
+        "Yup",
+        "Moment",
+        "Cpf-cnpj-validator",
+        "Data-fns",
+        "Gerador-validador-cpf",
+        "React-number-format",
+        "React-input-mask",
+        "React-spinners"
+      ]
+    },
+    "pokedexNew": {
+      "title": "PokeDex",
+      "descricao1": "This project was developed as part of the web development course with Angular, using the Tailwind CSS framework and the Axios library to make requests to the Pokémon API.",
+      "descricao2": "The objective of this challenge was to create a web application called PokeDex, which allows users to explore information about Pokémon.",
+      "descricao3": "To achieve this goal, we used Angular to create the application structure and user interface, Tailwind CSS for styling, and Axios to access data from the Pokémon API.",
+      "descricao4": "Key features of the application include:",
+      "descricao5": "1. Pokémon Listing: The application displays a list of Pokémon with basic information such as name and type.",
+      "descricao6": "2. Pokémon Details: Users can click on a Pokémon in the list to get more detailed information, including an image, abilities, and statistics.",
+      "descricao7": "3. Search by Name: The application allows users to search for Pokémon by name, making it easy to find specific Pokémon.",
+      "descricao8": "4. Styling with Tailwind CSS: We used Tailwind CSS to create an attractive and responsive user interface.",
+      "descricao9": "5. Axios Requests: Axios is used to make requests to the Pokémon API and retrieve the necessary data to display information about Pokémon.",
+      "descricao10": "This project also includes additional features, such as the ability to filter Pokémon by type and sort them in various ways.",
+      "descricao11": "The application offers an interactive and informative experience for Pokémon fans, allowing them to explore and learn more about their favorite Pokémon."
+    }
+  },
+  "contato": {
+    "celular": "Mobile Phone + WhatsApp"
+  }
+}
