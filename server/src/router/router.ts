@@ -1,5 +1,7 @@
 import { Router } from "express";
 import uploadFile from "../controllers/upload";
+import portifolio from "./../controllers/portifolio/portifolio.create";
+import allPortifolios from "./../controllers/portifolio/portifolio";
 
 const route = Router();
 
@@ -13,6 +15,8 @@ route.get("/", function (_, res) {
   }
 });
 
+route.get("/portifolios", allPortifolios);
+// route.post("/post", portifolio);
 route.post("/upload", multer.single("file"), uploadFile);
 
 module.exports = route;

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "push": "./push.sh",
+    "dep": "cd admin && yarn && cd ../web && yarn && cd ../server && yarn ",
+    "admin": "cd admin && yarn dev",
+    "server": "cd server && yarn dev",
+    "user": "cd web && yarn dev",
+    "dev": "git checkout dev && git pull origin main",
+    "main": "git checkout main",
+    "prisma": "cd server && yarn prisma:install",
+    "prisma:format": "cd server && yarn prisma format",
+    "seed": "cd server && yarn seed"
+  },
+  "license": "MIT"
+}

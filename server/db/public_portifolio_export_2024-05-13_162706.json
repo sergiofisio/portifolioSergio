@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "CuboFlix",
+    "description": "Projeto realizado no curso de desenvolvimento de software da Cubos Academy.\n\nNeste desafio, nos foi proposto a criação de um site chamado CuboFlix.\n\nUtilizei a framework AXIOS para acessar os dados da API e assim foi possível:\n\n1. Listar os filmes disponíveis na API;\n\n2. Buscar filmes por nome;\n\n3. Destaque do dia\n\n4. Mudança de tema para escuro ou claro, com persistência na atualização da página",
+    "image": "https://s3.us-east-005.backblazeb2.com/portifolioSergio/cuboflix.png",
+    "createdAt": "2024-05-09 13:21:03.72",
+    "updatedAt": "2024-05-09 13:21:03.72",
+    "url": "https://cuboflix.vercel.app/",
+    "github": "https://github.com/portifolioSergiofisio/cuboflix"
+  },
+  {
+    "id": 2,
+    "title": "CuboFlix2",
+    "description": "Projeto realizado no curso de desenvolvimento de software da Cubos Academy.\n\nNeste desafio, nos foi proposto a criação de um site chamado CuboFlix.\n\nUtilizei a framework AXIOS para acessar os dados da API e assim foi possível:\n\n1. Listar os filmes disponíveis na API;\n\n2. Buscar filmes por nome;\n\n3. Destaque do dia\n\n4. Mudança de tema para escuro ou claro, com persistência na atualização da página",
+    "image": "https://s3.us-east-005.backblazeb2.com/portifolioSergio/cuboflix.png",
+    "createdAt": "2024-05-09 13:24:21.582",
+    "updatedAt": "2024-05-09 13:24:21.582",
+    "url": "https://cuboflix.vercel.app/",
+    "github": "https://github.com/portifolioSergiofisio/cuboflix"
+  }
+]

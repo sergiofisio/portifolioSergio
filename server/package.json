@@ -12,7 +12,7 @@
     "begin": "yarn && yarn build",
     "start": "node dist/index.js",
     "build": "tsc",
-    "prisma:install": "npm run migrate && npm run generate && npm run push && npm run seed",
+    "prisma:install": "npm run migrate && npm run generate && npm run push",
     "migrate": "npx prisma migrate dev",
     "generate": "npx prisma generate",
     "pull": "npx prisma db pull",
@@ -29,6 +29,8 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "aws-sdk": "^2.1616.0",
     "axios": "^1.6.8",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
