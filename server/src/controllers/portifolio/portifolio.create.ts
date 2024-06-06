@@ -18,6 +18,10 @@ const portifolio = async (req: Request, res: Response) => {
 
     const { id } = await prisma.commonFields.create({
       data: {
+        titleId: title.br
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/\s+/g, ""),
         image,
         url,
         github,

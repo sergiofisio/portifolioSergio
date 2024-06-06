@@ -5,9 +5,15 @@ const prisma = new PrismaClient();
 
 const allPortifolios = async (_: Request, res: Response) => {
   try {
-    const portifolios = await prisma.portifoliosBr.findMany();
-    if (!portifolios) throw new Error("Nenhum portifolio encontrado");
-    res.status(200).json(portifolios);
+    const portifolios = await prisma.commonFields.findMany({
+      include: {
+        portifolioBr: true,
+        portifolioFr: true,
+        portifolioEn: true,
+      },
+    });
+
+    res.status(200).json({ portifolios });
   } catch (error: any) {
     res.status(500).send({ message: error.message });
   }

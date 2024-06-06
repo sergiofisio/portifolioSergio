@@ -9,12 +9,13 @@ datasource db {
 
 model commonFields {
   id          Int     @id @default(autoincrement())
+  titleId     String
   image       String
   url         String @unique
   github      String
-  portifoliosBr portifoliosBr[]
-  portifoliosFr portifoliosFr[]
-  portifoliosEn portifoliosEn[]
+  portifolioBr portifoliosBr[]
+  portifolioFr portifoliosFr[]
+  portifolioEn portifoliosEn[]
 }
 
 model portifoliosBr {

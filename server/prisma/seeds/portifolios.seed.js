@@ -52,6 +52,10 @@ async function seedPortifoliosBr() {
 
   for (const portifolio of portifoliosToCreate) {
     const commonFieldsData = {
+      titleId: portifolio.title.br
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, ""),
       image: portifolio.image,
       url: portifolio.url,
       github: portifolio.github,

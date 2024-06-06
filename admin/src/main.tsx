@@ -3,10 +3,15 @@ import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import App from "./App";
 import "./index.css";
+import { ContextProvider } from "./context/context";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
-    <App />
-    <ToastContainer toastClassName="rounded-3xl" />
+    <ContextProvider>
+      <>
+        <App />
+        <ToastContainer toastClassName="rounded-3xl" />
+      </>
+    </ContextProvider>
   </BrowserRouter>
 );
