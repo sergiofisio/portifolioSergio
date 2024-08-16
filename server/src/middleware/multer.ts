@@ -1,3 +1,5 @@
 import multer from "multer";
 
-module.exports = multer({});
+const multerInstance = multer({});
+
+export default multerInstance;

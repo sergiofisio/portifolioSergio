@@ -7,6 +7,7 @@ const allPortifolios = async (_: Request, res: Response) => {
   try {
     const portifolios = await prisma.commonFields.findMany({
       include: {
+        images: true,
         portifolioBr: true,
         portifolioFr: true,
         portifolioEn: true,

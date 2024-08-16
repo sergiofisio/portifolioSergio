@@ -2,11 +2,20 @@
 CREATE TABLE "commonFields" (
     "id" SERIAL NOT NULL,
     "titleId" TEXT NOT NULL,
-    "image" TEXT NOT NULL,
     "url" TEXT NOT NULL,
     "github" TEXT NOT NULL,
 
     CONSTRAINT "commonFields_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "image" (
+    "id" SERIAL NOT NULL,
+    "url" TEXT NOT NULL,
+    "alt" TEXT NOT NULL,
+    "commonFieldsId" INTEGER NOT NULL,
+
+    CONSTRAINT "image_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -59,6 +68,9 @@ CREATE UNIQUE INDEX "portifoliosFr_title_key" ON "portifoliosFr"("title");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "portifoliosEn_title_key" ON "portifoliosEn"("title");
+
+-- AddForeignKey
+ALTER TABLE "image" ADD CONSTRAINT "image_commonFieldsId_fkey" FOREIGN KEY ("commonFieldsId") REFERENCES "commonFields"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "portifoliosBr" ADD CONSTRAINT "portifoliosBr_commonFieldsId_fkey" FOREIGN KEY ("commonFieldsId") REFERENCES "commonFields"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

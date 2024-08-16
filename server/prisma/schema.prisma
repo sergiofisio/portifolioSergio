@@ -10,12 +10,20 @@ datasource db {
 model commonFields {
   id          Int     @id @default(autoincrement())
   titleId     String
-  image       String
+  images      image[]
   url         String @unique
   github      String
   portifolioBr portifoliosBr[]
   portifolioFr portifoliosFr[]
   portifolioEn portifoliosEn[]
+}
+
+model image {
+  id    Int @id @default(autoincrement())
+  url   String
+  alt   String
+  commonFields commonFields @relation(fields: [commonFieldsId], references: [id])
+  commonFieldsId Int
 }
 
 model portifoliosBr {

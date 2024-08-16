@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 const portifolio = async (req: Request, res: Response) => {
-  const { title, description, image, url, github } = req.body;
+  const { title, description, images, url, github } = req.body;
 
   try {
     const [portifolioBr, portifoliosFr, portifoliosEn] = await Promise.all([
@@ -22,11 +22,20 @@ const portifolio = async (req: Request, res: Response) => {
           .normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .replace(/\s+/g, ""),
-        image,
         url,
         github,
       },
     });
+
+    for (let i = 0; i < images.length; i++) {
+      await prisma.image.create({
+        data: {
+          url: images[i].url,
+          alt: `image ${i + 1} ${title.br}`,
+          commonFieldsId: id,
+        },
+      });
+    }
 
     await Promise.all([
       prisma.portifoliosBr.create({

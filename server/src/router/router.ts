@@ -3,10 +3,12 @@ import uploadFile from "../controllers/upload";
 import portifolio from "./../controllers/portifolio/portifolio.create";
 import allPortifolios from "./../controllers/portifolio/portifolio";
 import backup from "./../controllers/backup";
+import schedule from "node-schedule";
 
 const route = Router();
 
-const multer = require("../middleware/multer");
+import multerInstance from "../middleware/multer";
+import updatePortifolio from "./../controllers/portifolio/portifolio.update";
 
 route.get("/", function (_, res) {
   try {
@@ -18,7 +20,12 @@ route.get("/", function (_, res) {
 
 route.get("/portifolios", allPortifolios);
 route.get("/backup", backup);
-// route.post("/post", portifolio);
-route.post("/upload", multer.single("file"), uploadFile);
+route.put("/update/:id", updatePortifolio);
+route.post("/post", portifolio);
+route.post("/upload", multerInstance.single("file"), uploadFile);
+
+schedule.scheduleJob("0 10 * * *", function () {
+  backup();
+});
 
 module.exports = route;
