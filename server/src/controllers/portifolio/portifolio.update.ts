@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { PrismaClient } from "@prisma/client";
-import { Lang, PrismaKeys } from "../../type/type";
+import { Lang } from "../../type/type";
 const prisma = new PrismaClient();
 
 const updatePortifolio = async (req: Request, res: Response) => {

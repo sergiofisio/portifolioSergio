@@ -37,7 +37,7 @@ async function backup(): Promise<void> {
     await prisma.$disconnect();
 
     let mailOptions = {
-      from: process.env.ZOHO_USER,
+      from: process.env.EMAIL,
       to: "sergiobastosfisio@yahoo.com.br",
       subject: `Database Backup - PORTIFOLIO DATA: ${date}`,
       text: "Please find attached the latest database backup.",

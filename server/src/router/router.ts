@@ -23,6 +23,7 @@ route.get("/backup", backup);
 route.put("/update/:id", updatePortifolio);
 route.post("/post", portifolio);
 route.post("/upload", multerInstance.single("file"), uploadFile);
+route.get("/backup", backup);
 
 schedule.scheduleJob("0 10 * * *", function () {
   backup();
