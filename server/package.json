@@ -30,6 +30,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^22.1.0",
     "@types/serve-favicon": "^2.5.7",
+    "aws-sdk": "^2.1679.0",
     "axios": "^1.7.3",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
