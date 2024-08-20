@@ -12,9 +12,9 @@ import updatePortifolio from "./../controllers/portifolio/portifolio.update";
 
 route.get("/", function (_, res) {
   try {
-    res.json({ message: "Hello World" });
+    res.json({init:true, message: "Hello World" });
   } catch (error: any) {
-    res.status(500).send({ message: error.message });
+    res.status(500).send({init:false, message: error.message });
   }
 });
 
