@@ -107,13 +107,21 @@ async function seedPortifoliosBr() {
     };
 
     for (let i = 0; i < portifolio.images.length; i++) {
-      await prisma.image.create({
-        data: {
-          url: portifolio.images[i].url,
-          alt: `image ${i + 1} ${portifolio.title.br}`,
-          commonFieldsId: commonFields.id,
-        },
+      const findImage = await prisma.image.findFirst({
+        where: { url: portifolio.images[i.url] },
       });
+      if (findImage.length) {
+        await prisma.image.create({
+          data: {
+            url: portifolio.images[i].url,
+            alt: `image ${i + 1} ${portifolio.title.br}`,
+            commonFieldsId: commonFields.id,
+          },
+        });
+        console.log(`Imagem do ${portifolio.title.br} foi adicionada`);
+      } else {
+        console.log(`Imagem do ${portifolio.title.br} ja existe`);
+      }
     }
 
     await createOrUpdatePortifolio(
