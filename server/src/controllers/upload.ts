@@ -48,3 +48,5 @@ const uploadImg = async (req: Request, res: Response) => {
     });
   }
 };
+
+export default uploadImg;
