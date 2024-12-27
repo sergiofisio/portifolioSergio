@@ -10,9 +10,9 @@
     "yarn": ">=1.22.5"
   },
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "begin": "yarn && yarn prisma",
-    "start": "yarn build && node dist/index.js",
+    "start": "nodemon src/index.ts",
+    "begin": "yarn && yarn prisma && yarn build",
+    "start:prod": " node dist/index.js",
     "build": "tsc",
     "prisma": "npx prisma migrate deploy && yarn generate && yarn push && yarn seed",
     "prisma:install": "npm run migrate && npm run generate && npm run push && npm run seed",
