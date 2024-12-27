@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,7 +12,7 @@
     "dev": "nodemon src/index.ts",
     "begin": "yarn && yarn prisma && yarn build",
     "start": "node dist/index.js",
-    "build": "tsc src/index.ts",
+    "build": "tsc",
     "prisma": "npx prisma migrate deploy && yarn generate && yarn push && yarn seed",
     "prisma:install": "npm run migrate && npm run generate && npm run push && npm run seed",
     "migrate": "npx prisma migrate dev",
@@ -34,7 +33,6 @@
     "aws-sdk": "^2.1679.0",
     "axios": "^1.7.3",
     "bcrypt": "^5.1.1",
-    "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
     "dotenv": "^16.4.5",
@@ -46,14 +44,12 @@
     "nodemon": "^3.1.4",
     "prisma": "^5.18.0",
     "serve-favicon": "^2.5.0",
-    "streamifier": "^0.1.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/multer": "^1.4.11",
     "@types/node-schedule": "^2.1.7",
     "@types/nodemailer": "^6.4.15",
-    "@types/streamifier": "^0.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
