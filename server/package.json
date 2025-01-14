@@ -12,7 +12,9 @@
     "dev": "nodemon src/index.ts",
     "begin": "yarn && yarn prisma && yarn build",
     "start": "node dist/index.js",
-    "build": "tsc",
+    "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist",
     "prisma": "npx prisma migrate deploy && yarn generate && yarn push && yarn seed",
     "prisma:install": "npm run migrate && npm run generate && npm run push && npm run seed",
     "migrate": "npx prisma migrate dev",
@@ -21,6 +23,11 @@
     "push": "npx prisma db push",
     "seed": "node ./prisma/seed.js"
   },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ],
   "dependencies": {
     "@prisma/client": "^5.18.0",
     "@prisma/extension-accelerate": "^1.1.0",
@@ -53,6 +60,8 @@
     "@types/node-schedule": "^2.1.7",
     "@types/nodemailer": "^6.4.15",
     "@types/streamifier": "^0.1.2",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
