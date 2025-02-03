@@ -1,59 +1,134 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import axiosPrivate from "../../service/github";
 import { useEffect, useState } from "react";
 import cuboflix from "../../assets/projects/cuboflix.png";
+import biointegral from "../../assets/projects/biointegral.svg";
 import cobranca from "../../assets/projects/cobranca.png";
-import dindin from "../../assets/projects/dindin.png";
 import pokedex from "../../assets/projects/pokedex.png";
 import PortifolioInfo from "../../components/portifolio";
 import PortifolioTitle from "../../components/portifolio/title";
 
-export default function Portifolio() {
-  const [projects, setProjects] = useState([]);
-  const { t } = useTranslation();
-  const [showProject, setShowProject] = useState("cuboflix");
-
-  function getprojetcInfo(projectName, type) {
-    switch (projectName) {
-      case "cuboflix":
-        return type === "img" ? cuboflix : 7;
-      case "aplicacaoCobranca":
-        return type === "img" ? cobranca : 10;
-      case "web-app-dindin-TS":
-        return type === "img" ? dindin : 17;
-      case "pokedexNew":
-        return type === "img" ? pokedex : 11;
-      default:
-        return "";
-    }
-  }
-
-  async function getProjects() {
-    const { data } = await axiosPrivate.get(
-      "/orgs/portifolioSergiofisio/repos",
+const projectsInfo = [
+  {
+    name: "CuboFlix",
+    img: cuboflix,
+    github: "https://github.com/sergiofisio/cuboflix",
+    site: "https://cuboflix.vercel.app/",
+    descricao: 9,
+    tecnologies: [
       {
-        headers: {
-          Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-        },
-      }
-    );
-    setProjects(
-      data.map((project) => {
-        return {
-          name: project.name,
-          img: getprojetcInfo(project.name, "img"),
-          github: project.html_url,
-          site: project.homepage,
-          numDescriptions: getprojetcInfo(project.name, "description"),
-        };
-      })
-    );
-  }
+        title: "tecnologias",
+        ul: ["HTML", "CSS", "JavaScript", "Axios", "DOM"],
+      },
+    ],
+  },
+  {
+    name: "AplicacaoCobrancas",
+    img: cobranca,
+    github: "https://github.com/sergiofisio/aplicacaoCobranca",
+    site: "https://app-cobranca.vercel.app/",
+    descricao: 9,
+    tecnologias: [
+      {
+        title: "tecnologias",
+        ul: [
+          "React",
+          "React Router",
+          "Yup",
+          "React Toastify",
+          "Axios",
+          "Moment",
+          "React-input-mask",
+          "React-spinners",
+          "Testing-library/jest-dom",
+          "Express.js",
+          "Knex",
+          "PostgreSQL",
+          "Swagger UI Express",
+          "Cors",
+          "Dotenv",
+          "Joi",
+          "Bcrypt",
+          "Jsonwebtoken",
+          "Nodemon",
+        ],
+      },
+    ],
+  },
+  {
+    name: "PokeDex",
+    img: pokedex,
+    github: "https://github.com/sergiofisio/pokedexNew",
+    site: "https://pokedex-new-xi.vercel.app/",
+    descricao: 8,
+    tecnologias: [
+      {
+        title: "tecnologias",
+        ul: [
+          "React",
+          "React Router",
+          "Yup",
+          "React Toastify",
+          "Axios",
+          "Moment",
+          "React-input-mask",
+          "React-spinners",
+          "Testing-library/jest-dom",
+          "Express.js",
+          "Knex",
+          "PostgreSQL",
+          "Swagger UI Express",
+          "Cors",
+          "Dotenv",
+          "Joi",
+          "Bcrypt",
+          "Jsonwebtoken",
+          "Nodemon",
+        ],
+      },
+    ],
+  },
+  {
+    name: "ClinicaBiointegralSaude",
+    img: biointegral,
+    github: "https://github.com/sergiofisio/biointegralNext",
+    site: "https://biointegralsaude.com.br/",
+    descricao: 7,
+    tecnologias: [
+      {
+        title: "tecnologias",
+        ul: [
+          "Next.js",
+          "tailwindcss",
+          "typescript",
+          "react-input-mask",
+          "react-spinners",
+          "react-toastify",
+          "axios",
+        ],
+      },
+    ],
+  },
+];
+
+export default function Portifolio() {
+  const { t } = useTranslation();
+  const [projects, setProjects] = useState([]);
+
+  const [showProject, setShowProject] = useState("CuboFlix");
 
   useEffect(() => {
-    getProjects();
-  }, []);
+    const updatedProjects = projectsInfo.map((project) => {
+      const descricoes = [];
+      for (let i = 1; i <= project.descricao; i++) {
+        descricoes.push(t(`Projetos.${project.name}.descricao${i}`));
+      }
+      return { ...project, descricao: descricoes };
+    });
+
+    setProjects(updatedProjects);
+  }, [t]);
+
   return (
     <motion.section
       initial={{ opacity: 0 }}

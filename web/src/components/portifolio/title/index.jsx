@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 
 export default function PortifolioTitle({ title, name, setShowProject }) {
   const { t } = useTranslation();
+  console.log({ title, name, setShowProject });
+
   return (
     <h1
       className={`transition-all hover:opacity-100 cursor-pointer text-3xl font-bold ${
