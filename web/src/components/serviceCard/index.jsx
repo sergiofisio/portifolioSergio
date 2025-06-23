@@ -61,7 +61,7 @@ export default function ServiceCard() {
         <div
           key={index}
           onClick={() => handleClick(index)}
-          className="w-full max-h-full py-3 px-10  flex flex-col items-center gap-4 border-gray-500 border-b-2 border-dotted last-of-type:border-none relative transition-all duration-200 ease-in-out "
+          className="w-full max-h-[70%] py-3 px-10 flex flex-col items-center gap-4 border-gray-500 border-b-2 border-dotted last-of-type:border-none relative transition-all duration-200 ease-in-out "
         >
           <h2
             className={`items-center justify-center absolute top-0 left-0 w-full h-full text-5xl bg-gray-500 opacity-0 transition-all duration-500 ease-in-out hover:opacity-100 text-black font-bold ${
@@ -77,7 +77,7 @@ export default function ServiceCard() {
             {t(title)}
           </h2>
           <div
-            className={`overflow-hidden transition-all duration-500 ease-in-out gap-8 ${
+            className={`overflow-hidden transition-all overflow-y-scroll  duration-500 ease-in-out gap-8 ${
               expandir ? "max-h-full" : "max-h-0"
             } md:overflow-y-scroll`}
           >
