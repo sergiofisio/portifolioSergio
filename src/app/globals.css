@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #07070c;
+  --color-surface: #0f0f17;
+  --color-surface-2: #161622;
+  --color-border: #262636;
+  --color-foreground: #ededf5;
+  --color-muted: #9a9ab0;
+  --color-primary: #7c5cff;
+  --color-primary-foreground: #ffffff;
+  --color-accent: #22d3ee;
+  --color-danger: #f43f5e;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-primary) 60%, transparent);
+}
+
+@utility text-gradient {
+  background-image: linear-gradient(
+    120deg,
+    var(--color-primary),
+    var(--color-accent)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility glass {
+  background: color-mix(in oklab, var(--color-surface) 70%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-border) 80%, transparent);
+  backdrop-filter: blur(14px);
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.prose-content h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.75rem;
+}
+.prose-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+}
+.prose-content p {
+  margin: 0.75rem 0;
+  line-height: 1.75;
+  color: var(--color-muted);
+}
+.prose-content ul,
+.prose-content ol {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+  color: var(--color-muted);
+}
+.prose-content ul {
+  list-style: disc;
+}
+.prose-content ol {
+  list-style: decimal;
+}
+.prose-content li {
+  margin: 0.35rem 0;
+}
+.prose-content a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.prose-content code {
+  background: var(--color-surface-2);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.35rem;
+  font-size: 0.9em;
+}

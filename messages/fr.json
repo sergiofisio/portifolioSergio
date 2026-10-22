@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Sergio Bastos — Développeur Full Stack",
+    "description": "Portfolio de Sergio Bastos, Développeur Full Stack confirmé chez Mobilemed : React, Next.js, Angular, Node.js, Go, TypeScript et PostgreSQL."
+  },
+  "nav": {
+    "about": "À propos",
+    "experience": "Parcours",
+    "skills": "Technologies",
+    "projects": "Projets",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "content": "Contenu"
+  },
+  "hero": {
+    "available": "Ouvert à de nouveaux défis",
+    "greeting": "Bonjour, je suis",
+    "role": "Développeur Full Stack",
+    "tagline": "Je développe des applications web complètes, du frontend en React et Next.js aux API en Node.js et Go, avec un focus sur la performance, la sécurité et la résolution de vrais problèmes métier.",
+    "ctaProjects": "Voir les projets",
+    "ctaCv": "Télécharger le CV",
+    "scroll": "Faites défiler pour explorer",
+    "current": "Développeur Full Stack confirmé chez Mobilemed"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "De la kinésithérapie à l'ingénierie logicielle pour la santé",
+    "p1": "Je suis Développeur Full Stack et je travaille avec React, Next.js, Angular, Node.js, TypeScript et Go. Je conçois des interfaces intuitives et responsives et des API robustes et évolutives, en gardant toujours un œil sur la performance, l'automatisation des processus et la réduction des coûts.",
+    "p2": "Aujourd'hui, je travaille chez Mobilemed Soluções Médicas, sur la plateforme de PACS cloud et de téléradiologie utilisée par des cliniques et des hôpitaux. Auparavant, j'ai dirigé le développement web de la Clinique Biointegral Santé, où j'ai créé une boutique en ligne de zéro, des systèmes de gestion financière et de parcours patient, ainsi que des outils qui ont réduit les coûts opérationnels de 15 %.",
+    "p3": "Je viens de la kinésithérapie, ce qui m'a apporté de l'empathie pour les utilisateurs, du leadership d'équipe et le souci du détail. J'ai une expérience internationale en France et aux États-Unis et je parle anglais (C1) et français (B2), ce qui facilite le travail avec des équipes internationales.",
+    "stats": {
+      "projects": "projets publiés",
+      "years": "ans de développement logiciel",
+      "savings": "de réduction des coûts opérationnels chez Biointegral"
+    },
+    "softSkills": "Leadership · Résolution de problèmes · Travail d'équipe · Communication · Scrum · Kanban"
+  },
+  "experience": {
+    "eyebrow": "Parcours",
+    "title": "Expérience et formation",
+    "present": "Actuel",
+    "items": {
+      "biointegral": {
+        "role": "Développeur Web & Kinésithérapeute",
+        "company": "Clinique Biointegral Santé",
+        "description": "J'ai dirigé le développement web de la clinique avec React, Next.js, Tailwind CSS, Node.js et TypeScript : boutique en ligne créée de zéro, systèmes de gestion financière et de parcours patient et outils qui ont doublé la productivité de l'équipe, avec 15 % de réduction des coûts opérationnels. En parallèle, j'ai exercé comme kinésithérapeute dans le service de kinésithérapie intégrative."
+      },
+      "cubos": {
+        "role": "Développement Logiciel",
+        "company": "Cubos Academy",
+        "description": "Formation intensive de 870 heures : Front-end avec HTML, CSS et React, Back-end avec JavaScript et API REST, conception de bases de données avec PostgreSQL, Git/GitHub et soft skills."
+      },
+      "physio": {
+        "role": "Licence en Kinésithérapie",
+        "company": "Faculdades Integradas Pitágoras",
+        "description": "Diplômé parmi les meilleures notes de la promotion."
+      },
+      "mobilemed": {
+        "role": "Développeur Full Stack confirmé",
+        "company": "Mobilemed Soluções Médicas",
+        "description": "Développement et maintenance de la plateforme de PACS cloud, de téléradiologie et d'IA pour les comptes rendus médicaux, du frontend (React et Angular) au backend (Node.js), avec PostgreSQL, MongoDB, Docker et CI/CD."
+      },
+      "santander": {
+        "role": "Santander Bootcamp 2023",
+        "company": "Bourse d'études",
+        "description": "Sélectionné pour une bourse d'études dans le bootcamp de développement de Santander, dans le cadre de ma reconversion."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Les technologies que j'utilise au quotidien",
+    "categories": {
+      "FRONTEND": "Front-end",
+      "BACKEND": "Back-end",
+      "DATABASE": "Bases de données",
+      "TOOLS": "DevOps & outils"
+    },
+    "languagesTitle": "Langues",
+    "languages": {
+      "pt": "Portugais",
+      "en": "Anglais",
+      "fr": "Français",
+      "native": "Langue maternelle"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projets à la une",
+    "subtitle": "Une sélection de travaux, du site d'entreprise en production aux applications full stack.",
+    "all": "Tous",
+    "featured": "À la une",
+    "details": "Voir les détails",
+    "live": "Voir en ligne",
+    "code": "Code",
+    "empty": "Aucun projet trouvé.",
+    "back": "Retour aux projets",
+    "technologies": "Technologies",
+    "gallery": "Galerie",
+    "links": "Liens",
+    "otherProjects": "Autres projets"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Comment je peux vous aider",
+    "items": {
+      "sites": {
+        "title": "Sites sur mesure",
+        "description": "Sites vitrines et landing pages uniques, sans modèles préfabriqués, pensés pour votre marque et optimisés pour le SEO et la performance."
+      },
+      "apps": {
+        "title": "Applications web",
+        "description": "Systèmes de gestion, outils de réservation, tableaux de bord et plateformes complètes, construits avec des technologies modernes et sécurisées."
+      },
+      "responsive": {
+        "title": "Design responsive",
+        "description": "Des interfaces qui s'adaptent parfaitement aux téléphones, tablettes et ordinateurs, pour la meilleure expérience sur tous les appareils."
+      },
+      "multilingual": {
+        "title": "Projets multilingues",
+        "description": "Des sites en portugais, anglais et français pour toucher un public international, avec un contenu relu par quelqu'un qui parle les trois langues."
+      }
+    }
+  },
+  "content": {
+    "eyebrow": "Contenu",
+    "title": "Je partage ce que j'apprends",
+    "subtitle": "Des publications LinkedIn sur React, Next.js, Node.js et les bonnes pratiques de développement.",
+    "seriesTitle": "Série : React du débutant à l'avancé",
+    "seriesDescription": "Une série quotidienne de 15 épisodes sur les composants, les props, l'état, les hooks, la performance et les React Server Components.",
+    "episode": "Ép.",
+    "read": "Lire sur LinkedIn",
+    "more": "Voir toutes les publications",
+    "language": "Publications rédigées en portugais"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Concrétisons votre idée",
+    "subtitle": "Projet, mission freelance ou offre d'emploi : contactez-moi sur le canal de votre choix ou laissez un message ici.",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi...",
+      "success": "Message envoyé ! Je vous réponds bientôt.",
+      "error": "Envoi impossible. Essayez via WhatsApp ou e-mail.",
+      "invalid": "Indiquez votre nom, un e-mail valide et un message d'au moins 10 caractères.",
+      "phone": "WhatsApp (facultatif)",
+      "reason": "Sujet",
+      "reasons": {
+        "project": "Projet ou freelance",
+        "job": "Offre d'emploi",
+        "other": "Autre sujet"
+      },
+      "messagePlaceholder": "Expliquez-moi en quelques mots ce dont vous avez besoin...",
+      "rateLimited": "Trop de messages en peu de temps. Réessayez dans quelques minutes."
+    },
+    "cta": "Discutons",
+    "fab": "Me contacter",
+    "fabWhatsapp": "Écrire sur WhatsApp",
+    "dialogTitle": "On en parle ?",
+    "dialogSubtitle": "Choisissez le canal que vous préférez ou laissez un message. Je vous réponds au plus vite.",
+    "close": "Fermer",
+    "orForm": "ou envoyez un message",
+    "whatsappMessage": "Bonjour Sergio ! J'ai vu votre portfolio et j'aimerais discuter.",
+    "fastest": "Le plus rapide",
+    "banner": {
+      "title": "Ce projet vous plaît ?",
+      "subtitle": "Je peux vous aider à construire quelque chose de similaire, pour vous ou pour votre équipe."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "built": "Réalisé avec Next.js, Tailwind CSS et PostgreSQL."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Le contenu que vous cherchez n'existe pas ou a été supprimé.",
+    "back": "Retour à l'accueil"
+  }
+}

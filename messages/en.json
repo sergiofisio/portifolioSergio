@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Sergio Bastos — Full Stack Developer",
+    "description": "Portfolio of Sergio Bastos, Mid-level Full Stack Developer at Mobilemed: React, Next.js, Angular, Node.js, Go, TypeScript and PostgreSQL."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Journey",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "content": "Content"
+  },
+  "hero": {
+    "available": "Open to new challenges",
+    "greeting": "Hi, I'm",
+    "role": "Full Stack Developer",
+    "tagline": "I build complete web applications, from React and Next.js frontends to Node.js and Go APIs, focused on performance, security and solving real business problems.",
+    "ctaProjects": "View projects",
+    "ctaCv": "Download CV",
+    "scroll": "Scroll to explore",
+    "current": "Mid-level Full Stack Developer at Mobilemed"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "From Physical Therapy to software engineering for healthcare",
+    "p1": "I'm a Full Stack Developer working with React, Next.js, Angular, Node.js, TypeScript and Go. I build intuitive, responsive interfaces and robust, scalable APIs, always keeping an eye on performance, process automation and cost reduction.",
+    "p2": "Today I work at Mobilemed Soluções Médicas, on the cloud PACS and teleradiology platform used by clinics and hospitals. Before that, I led web development at Biointegral Saúde Clinic, where I built an e-commerce platform from scratch, financial and patient-flow systems, and tools that cut operating costs by 15%.",
+    "p3": "I come from Physical Therapy, which gave me empathy for the people who use the product, team leadership and attention to detail. I have international experience in France and the United States and speak English (C1) and French (B2), which makes working with global teams easier.",
+    "stats": {
+      "projects": "published projects",
+      "years": "years building software",
+      "savings": "operating cost reduction at Biointegral"
+    },
+    "softSkills": "Leadership · Problem solving · Teamwork · Communication · Scrum · Kanban"
+  },
+  "experience": {
+    "eyebrow": "Journey",
+    "title": "Experience and education",
+    "present": "Present",
+    "items": {
+      "biointegral": {
+        "role": "Web Developer & Physiotherapist",
+        "company": "Biointegral Saúde Clinic",
+        "description": "Led the clinic's web development with React, Next.js, Tailwind CSS, Node.js and TypeScript: an e-commerce platform built from scratch, financial and patient-flow systems and tools that doubled the team's productivity, with a 15% reduction in operating costs. In parallel, I worked as a physiotherapist in the integrative physiotherapy department."
+      },
+      "cubos": {
+        "role": "Software Development",
+        "company": "Cubos Academy",
+        "description": "870-hour intensive course: Front-end with HTML, CSS and React, Back-end with JavaScript and REST APIs, database design with PostgreSQL, Git/GitHub and soft skills."
+      },
+      "physio": {
+        "role": "Bachelor's in Physical Therapy",
+        "company": "Faculdades Integradas Pitágoras",
+        "description": "Graduated with some of the highest scores in the class."
+      },
+      "mobilemed": {
+        "role": "Mid-level Full Stack Developer",
+        "company": "Mobilemed Soluções Médicas",
+        "description": "Development and maintenance of the cloud PACS, teleradiology and AI-assisted medical reporting platform, from the frontend (React and Angular) to the backend (Node.js), with PostgreSQL, MongoDB, Docker and CI/CD."
+      },
+      "santander": {
+        "role": "Santander Bootcamp 2023",
+        "company": "Scholarship",
+        "description": "Selected for a scholarship in Santander's software development bootcamp, as part of my career transition."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Technologies I use every day",
+    "categories": {
+      "FRONTEND": "Front-end",
+      "BACKEND": "Back-end",
+      "DATABASE": "Databases",
+      "TOOLS": "DevOps & tools"
+    },
+    "languagesTitle": "Languages",
+    "languages": {
+      "pt": "Portuguese",
+      "en": "English",
+      "fr": "French",
+      "native": "Native"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Featured projects",
+    "subtitle": "A selection of work, from a production company website to full stack applications.",
+    "all": "All",
+    "featured": "Featured",
+    "details": "View details",
+    "live": "Live demo",
+    "code": "Code",
+    "empty": "No projects found.",
+    "back": "Back to projects",
+    "technologies": "Technologies",
+    "gallery": "Gallery",
+    "links": "Links",
+    "otherProjects": "Other projects"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "How I can help",
+    "items": {
+      "sites": {
+        "title": "Custom websites",
+        "description": "Unique company websites and landing pages, no ready-made templates, designed for your brand and optimized for SEO and performance."
+      },
+      "apps": {
+        "title": "Web applications",
+        "description": "Management systems, booking tools, admin dashboards and complete platforms, built with modern and secure technology."
+      },
+      "responsive": {
+        "title": "Responsive design",
+        "description": "Interfaces that adapt perfectly to phones, tablets and desktops, ensuring the best experience on any device."
+      },
+      "multilingual": {
+        "title": "Multilingual projects",
+        "description": "Websites in Portuguese, English and French to reach international audiences, with content reviewed by someone who speaks all three."
+      }
+    }
+  },
+  "content": {
+    "eyebrow": "Content",
+    "title": "I share what I learn",
+    "subtitle": "LinkedIn posts about React, Next.js, Node.js and development best practices.",
+    "seriesTitle": "Series: React from beginner to advanced",
+    "seriesDescription": "A daily series of 15 episodes about components, props, state, hooks, performance and React Server Components.",
+    "episode": "Ep.",
+    "read": "Read on LinkedIn",
+    "more": "See all posts",
+    "language": "Posts written in Portuguese"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's bring your idea to life",
+    "subtitle": "Project, freelance or job opportunity: reach me on your favorite channel or leave a message here.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! I'll get back to you soon.",
+      "error": "Couldn't send it. Please try WhatsApp or email.",
+      "invalid": "Please fill in your name, a valid email and a message with at least 10 characters.",
+      "phone": "WhatsApp (optional)",
+      "reason": "Subject",
+      "reasons": {
+        "project": "Project or freelance",
+        "job": "Job opportunity",
+        "other": "Something else"
+      },
+      "messagePlaceholder": "Tell me a bit about what you need...",
+      "rateLimited": "Too many messages in a short time. Please try again in a few minutes."
+    },
+    "cta": "Let's talk",
+    "fab": "Contact me",
+    "fabWhatsapp": "Chat on WhatsApp",
+    "dialogTitle": "Let's talk?",
+    "dialogSubtitle": "Pick the channel you prefer or leave a message. I'll get back to you as soon as possible.",
+    "close": "Close",
+    "orForm": "or send a message",
+    "whatsappMessage": "Hi Sergio! I saw your portfolio and would like to talk.",
+    "fastest": "Fastest",
+    "banner": {
+      "title": "Liked this project?",
+      "subtitle": "I can help build something like this for you or your team."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js, Tailwind CSS and PostgreSQL."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The content you're looking for doesn't exist or was removed.",
+    "back": "Back to home"
+  }
+}
