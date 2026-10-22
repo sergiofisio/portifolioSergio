@@ -56,7 +56,11 @@ export function Hero() {
             <Link href={{ pathname: "/", hash: "projects" }} className={buttonVariants({ size: "lg" })}>
               {t("ctaProjects")}
             </Link>
-            <a href={siteConfig.cv[locale]} download className={buttonVariants({ size: "lg", variant: "outline" })}>
+            <a
+              href={siteConfig.cv[locale]}
+              download={`Sergio-Bastos-CV-${locale.toUpperCase()}.pdf`}
+              className={buttonVariants({ size: "lg", variant: "outline" })}
+            >
               <Download size={18} />
               {t("ctaCv")}
             </a>
