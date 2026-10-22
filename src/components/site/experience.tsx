@@ -5,7 +5,8 @@ import { Section, SectionHeading } from "./section";
 
 const items = [
   { key: "mobilemed", from: "09/2025", to: null, icon: Briefcase },
-  { key: "biointegral", from: "08/2010", to: "12/2025", icon: Briefcase },
+  { key: "biointegral", from: "08/2010", to: "09/2025", icon: Briefcase },
+  { key: "etec", from: "01/2024", to: "08/2025", icon: GraduationCap },
   { key: "santander", from: "2023", to: "2023", icon: GraduationCap },
   { key: "cubos", from: "08/2022", to: "04/2023", icon: GraduationCap },
   { key: "physio", from: "06/2002", to: "07/2007", icon: GraduationCap },

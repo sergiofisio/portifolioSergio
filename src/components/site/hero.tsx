@@ -9,7 +9,7 @@ import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 
-const stack = ["React", "Next.js", "Angular", "Node.js", "Go", "PostgreSQL"];
+const stack = ["React", "Next.js", "Angular", "Node.js", "NestJS", "Go"];
 
 export function Hero() {
   const t = useTranslations("hero");

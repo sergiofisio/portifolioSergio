@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sergio Bastos — Desenvolvedor Full Stack",
-    "description": "Portfólio de Sergio Bastos, Desenvolvedor Full Stack Pleno na Mobilemed: React, Next.js, Angular, Node.js, Go, TypeScript e PostgreSQL."
+    "description": "Portfólio de Sergio Bastos, Desenvolvedor Full Stack Pleno na Mobilemed: React, Next.js, Angular, Node.js, NestJS, Go e TypeScript."
   },
   "nav": {
     "about": "Sobre",
@@ -28,15 +28,15 @@
   "about": {
     "eyebrow": "Sobre mim",
     "title": "Da Fisioterapia à engenharia de software para a saúde",
-    "p1": "Sou Desenvolvedor Full Stack e trabalho com React, Next.js, Angular, Node.js, TypeScript e Go. Desenvolvo interfaces intuitivas e responsivas e APIs robustas e escaláveis, sempre de olho em performance, automação de processos e redução de custos.",
-    "p2": "Hoje atuo na Mobilemed Soluções Médicas, na plataforma de PACS em nuvem e telerradiologia usada por clínicas e hospitais. Antes, liderei o desenvolvimento web da Clínica Biointegral Saúde, onde criei um e-commerce do zero, sistemas de controle financeiro e de fluxo de pacientes e ferramentas que reduziram em 15% os custos operacionais.",
-    "p3": "Venho da Fisioterapia, e isso me deu empatia com quem usa o produto, liderança de equipe e atenção aos detalhes. Tenho experiência internacional na França e nos Estados Unidos e falo inglês (C1) e francês (B2), o que facilita trabalhar com times globais.",
+    "p1": "Sou Desenvolvedor Full Stack Pleno e construo soluções escaláveis com React, Next.js, Angular, Node.js, NestJS, TypeScript e Go. Meu foco é automação de processos, transformação digital, alta performance e estabilidade de sistemas.",
+    "p2": "Hoje atuo na Mobilemed Soluções Médicas, na sustentação de sistemas críticos de telerradiologia: investigo bugs complexos em produção, otimizo bancos de dados e modernizo código legado. Antes, liderei o desenvolvimento da Biointegral Saúde, onde criei um e-commerce do zero e sistemas de controle financeiro e de fluxo de pacientes, com 15% de redução nos custos operacionais e o dobro de produtividade da equipe.",
+    "p3": "Venho da Fisioterapia, e isso me deu empatia com quem usa o produto, liderança técnica e atenção aos detalhes. Tenho experiência internacional e falo inglês (C1) e francês (B2), o que facilita trabalhar com times globais.",
     "stats": {
       "projects": "projetos publicados",
-      "years": "anos desenvolvendo software",
-      "savings": "de redução de custos operacionais na Biointegral"
+      "savings": "de redução nos custos operacionais com automações",
+      "productivity": "de aumento na produtividade da equipe"
     },
-    "softSkills": "Liderança · Resolução de problemas · Trabalho em equipe · Comunicação · Scrum · Kanban"
+    "softSkills": "Liderança técnica · Resolução de problemas · Qualidade de software · Comunicação · Scrum · Kanban"
   },
   "experience": {
     "eyebrow": "Trajetória",
@@ -44,9 +44,9 @@
     "present": "Atual",
     "items": {
       "biointegral": {
-        "role": "Web Developer & Fisioterapeuta",
-        "company": "Clínica Biointegral Saúde",
-        "description": "Liderei o desenvolvimento web da clínica com React, Next.js, Tailwind CSS, Node.js e TypeScript: e-commerce criado do zero, sistemas de controle financeiro e de fluxo de pacientes e ferramentas que dobraram a produtividade da equipe, com 15% de redução nos custos operacionais. Em paralelo, atuei como fisioterapeuta no setor de fisioterapia integrativa."
+        "role": "Desenvolvedor Full Stack",
+        "company": "Biointegral Saúde",
+        "description": "Liderança técnica no desenvolvimento de sistemas de controle financeiro e de fluxo de pacientes, criação do zero de uma plataforma de e-commerce de alto desempenho e automações que geraram 15% de economia nos custos operacionais, em colaboração com equipes globais. Tecnologias: React.js, Next.js, Tailwind CSS, Node.js, Go e PostgreSQL."
       },
       "cubos": {
         "role": "Desenvolvimento de Software",
@@ -61,12 +61,17 @@
       "mobilemed": {
         "role": "Desenvolvedor Full Stack Pleno",
         "company": "Mobilemed Soluções Médicas",
-        "description": "Desenvolvimento e sustentação da plataforma de PACS em nuvem, telerradiologia e IA para laudos médicos, do frontend (React e Angular) ao backend (Node.js), com PostgreSQL, MongoDB, Docker e CI/CD."
+        "description": "Sustentação de sistemas críticos de telerradiologia com foco em estabilidade e alta disponibilidade: resolução de bugs complexos e análise de causa raiz em produção com Angular, Node.js e NestJS, otimização de bancos MySQL e MongoDB e manutenção evolutiva de código legado para reduzir débito técnico."
       },
       "santander": {
-        "role": "Santander Bootcamp 2023",
-        "company": "Bolsa de estudos",
-        "description": "Selecionado para uma bolsa de estudos no bootcamp de desenvolvimento do Santander, dando continuidade à transição de carreira."
+        "role": "Santander Bootcamp",
+        "company": "DIO",
+        "description": "Formação intensiva em desenvolvimento full stack: aplicações web com Angular, APIs e serviços em Java, modelagem de dados e metodologias ágeis (Scrum e Kanban)."
+      },
+      "etec": {
+        "role": "Técnico em Desenvolvimento de Sistemas",
+        "company": "ETEC Lauro Gomes",
+        "description": "Formação técnica em desenvolvimento de sistemas, programação, banco de dados e engenharia de software."
       }
     }
   },

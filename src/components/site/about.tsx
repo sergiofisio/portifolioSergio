@@ -6,8 +6,8 @@ export function About({ projectCount }: { projectCount: number }) {
   const t = useTranslations("about");
 
   const stats = [
-    { value: `${new Date().getFullYear() - 2022}+`, label: t("stats.years") },
     { value: "15%", label: t("stats.savings") },
+    { value: "+100%", label: t("stats.productivity") },
     { value: `${projectCount}+`, label: t("stats.projects") },
   ];
 

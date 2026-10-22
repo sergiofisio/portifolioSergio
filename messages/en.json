@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sergio Bastos — Full Stack Developer",
-    "description": "Portfolio of Sergio Bastos, Mid-level Full Stack Developer at Mobilemed: React, Next.js, Angular, Node.js, Go, TypeScript and PostgreSQL."
+    "description": "Portfolio of Sergio Bastos, Mid-level Full Stack Developer at Mobilemed: React, Next.js, Angular, Node.js, NestJS, Go and TypeScript."
   },
   "nav": {
     "about": "About",
@@ -28,15 +28,15 @@
   "about": {
     "eyebrow": "About me",
     "title": "From Physical Therapy to software engineering for healthcare",
-    "p1": "I'm a Full Stack Developer working with React, Next.js, Angular, Node.js, TypeScript and Go. I build intuitive, responsive interfaces and robust, scalable APIs, always keeping an eye on performance, process automation and cost reduction.",
-    "p2": "Today I work at Mobilemed Soluções Médicas, on the cloud PACS and teleradiology platform used by clinics and hospitals. Before that, I led web development at Biointegral Saúde Clinic, where I built an e-commerce platform from scratch, financial and patient-flow systems, and tools that cut operating costs by 15%.",
-    "p3": "I come from Physical Therapy, which gave me empathy for the people who use the product, team leadership and attention to detail. I have international experience in France and the United States and speak English (C1) and French (B2), which makes working with global teams easier.",
+    "p1": "I'm a Mid-level Full Stack Developer building scalable solutions with React, Next.js, Angular, Node.js, NestJS, TypeScript and Go. I focus on process automation, digital transformation, high performance and system stability.",
+    "p2": "Today I work at Mobilemed Soluções Médicas, supporting critical teleradiology systems: I investigate complex production bugs, optimize databases and modernize legacy code. Before that, I led development at Biointegral Saúde, where I built an e-commerce platform from scratch plus financial and patient-flow systems, cutting operating costs by 15% and doubling the team's productivity.",
+    "p3": "I come from Physical Therapy, which gave me empathy for the people who use the product, technical leadership and attention to detail. I have international experience and speak English (C1) and French (B2), which makes working with global teams easier.",
     "stats": {
       "projects": "published projects",
-      "years": "years building software",
-      "savings": "operating cost reduction at Biointegral"
+      "savings": "operating cost reduction through automation",
+      "productivity": "increase in team productivity"
     },
-    "softSkills": "Leadership · Problem solving · Teamwork · Communication · Scrum · Kanban"
+    "softSkills": "Technical leadership · Problem solving · Software quality · Communication · Scrum · Kanban"
   },
   "experience": {
     "eyebrow": "Journey",
@@ -44,9 +44,9 @@
     "present": "Present",
     "items": {
       "biointegral": {
-        "role": "Web Developer & Physiotherapist",
-        "company": "Biointegral Saúde Clinic",
-        "description": "Led the clinic's web development with React, Next.js, Tailwind CSS, Node.js and TypeScript: an e-commerce platform built from scratch, financial and patient-flow systems and tools that doubled the team's productivity, with a 15% reduction in operating costs. In parallel, I worked as a physiotherapist in the integrative physiotherapy department."
+        "role": "Full Stack Developer",
+        "company": "Biointegral Saúde",
+        "description": "Technical leadership in the development of financial management and patient-flow systems, a high-performance e-commerce platform built from scratch and automations that reduced operating costs by 15%, working with global teams. Technologies: React.js, Next.js, Tailwind CSS, Node.js, Go and PostgreSQL."
       },
       "cubos": {
         "role": "Software Development",
@@ -61,12 +61,17 @@
       "mobilemed": {
         "role": "Mid-level Full Stack Developer",
         "company": "Mobilemed Soluções Médicas",
-        "description": "Development and maintenance of the cloud PACS, teleradiology and AI-assisted medical reporting platform, from the frontend (React and Angular) to the backend (Node.js), with PostgreSQL, MongoDB, Docker and CI/CD."
+        "description": "Support and maintenance of critical teleradiology systems with a focus on stability and high availability: investigation and root-cause analysis of complex production bugs with Angular, Node.js and NestJS, MySQL and MongoDB performance tuning, and modernization of legacy code to reduce technical debt."
       },
       "santander": {
-        "role": "Santander Bootcamp 2023",
-        "company": "Scholarship",
-        "description": "Selected for a scholarship in Santander's software development bootcamp, as part of my career transition."
+        "role": "Santander Bootcamp",
+        "company": "DIO",
+        "description": "Intensive full stack training: web applications with Angular, APIs and services in Java, data modeling and agile methodologies (Scrum and Kanban)."
+      },
+      "etec": {
+        "role": "Systems Development Technician",
+        "company": "ETEC Lauro Gomes",
+        "description": "Technical degree in systems development, programming, databases and software engineering."
       }
     }
   },
